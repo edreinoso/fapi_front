@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.test-wrapper {
+  border: 2px dashed red;
+  padding: 16px;
+}
+
+.test-wrapper-2 {
+  border: 2px dashed blue;
+  padding: 16px;
+}
+
+.test-wrapper-3 {
+  border: 2px dashed green;
+  padding: 16px;
+}
