@@ -1,5 +1,6 @@
 import React from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import "./App.css";
 
 const data = [
   { name: "Jan", value: 400 },
@@ -15,7 +16,7 @@ const data = [
 const App = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <h1 className="text-xl font-bold mb-4">Mobile Test: Recharts</h1>
+      <h1 className="text-xl font-bold mb-4">Player Score Chart</h1>
       <div className="w-full max-w-lg bg-white p-4 rounded-2xl shadow-lg">
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={data}>
